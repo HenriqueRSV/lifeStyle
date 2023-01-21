@@ -1,0 +1,69 @@
+form {
+  display: flex;
+
+  padding: 182px 48px 48px;
+  width: fit-content;
+
+  .habits {
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    .habit {
+      width: 64px;
+      height: 64px;
+  
+      font-size: 32px;
+  
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .days {
+    display: flex;
+    gap: 48px;
+
+    margin-left: 32px;
+
+    .day {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+
+      div {
+        font-size: 20px;
+        line-height: 125%;
+        font-weight: 700;
+  
+        color: $colorText;
+
+        text-align: center;
+      } 
+    }
+  }
+}
+
+input {
+  appearance: none;
+  -webkit-appearance: none; 
+
+  width: 64px;
+  height: 64px;
+
+  background-color: #18181B;
+
+  border: 2px solid #27272A;
+  border-radius: 8px;
+
+}
+
+
+input:checked {
+  background: #8b5cf6;
+
+  border: 2px solid #A78BFA;
+}

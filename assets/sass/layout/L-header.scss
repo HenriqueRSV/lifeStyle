@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  padding: 48px;
+
+  position: fixed;
+  
+  background-color: $colorBg;
+
+  button {
+    cursor: pointer;
+
+    padding: 16px 24px;
+  
+    border: 1px solid #8b5cf6;
+    border-radius: 8px;
+  
+    background-color: transparent;
+    color: $colorText;
+  
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    font-family: $mainFont;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+  }
+}
